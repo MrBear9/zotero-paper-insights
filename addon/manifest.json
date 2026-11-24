@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "论文重点总结",
+  "version": "0.5.1",
+  "icons": { "16": "icons/summary.svg", "32": "icons/summary.svg", "48": "icons/summary.svg" },
+  "description": "在 Zotero PDF 阅读器中查看有原文依据的论文总结，点击要点定位批注。",
+  "author": "MrBear9",
+  "homepage_url": "https://github.com/MrBear9/zotero-paper-insights",
+  "applications": {
+    "zotero": {
+      "id": "paper-insights@mrbear.dev",
+      "update_url": "https://github.com/MrBear9/zotero-paper-insights/releases/download/release/update.json",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.9.9"
+    }
+  }
+}
